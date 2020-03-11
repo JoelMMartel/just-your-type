@@ -9,13 +9,52 @@ body {
 }
 
 .border {
-  position: relative;
-  min-width: 450px;
+  position: fixed;
+  top: 15%;
+  left: 5%;
+  min-width: 200px;
+  max-width: 250px;
   display: block;
   width: 35%;
-  border-style: solid;
+  border-style: dotted;
   border-color: #fff;
-  border-width: 3px;
+  border-width: 2px;
+}
+
+.move-1:hover {
+  position: relative;
+  animation-name: move-1;
+  animation-duration: 400s;
+}
+
+@keyframes move-1 {
+  0%   {left: 0px;}
+  1%   {left: 300px}
+  100% {left: 300px;}
+}
+
+.move-2:hover {
+  position: relative;
+  animation-name: move-2;
+  animation-duration: 400s;
+}
+
+@keyframes move-2 {
+  0%   {left:0px;}
+  1%   {left: 400px}
+  100% {left:400px;}
+}
+
+.move-3:hover {
+  position: relative;
+  animation-name: move-3;
+  animation-duration: 400s;
+}
+
+@keyframes move-3 {
+  0%   {left:0px;}
+  1%   {left: 500px}
+  100% {left:500px;}
 }
 
 .caps {
