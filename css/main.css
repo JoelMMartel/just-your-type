@@ -23,11 +23,12 @@ body {
 
 @keyframes move-1 {
 
-  0%   { left: 0px; }
+  0% { left: 0; }
 
-  2%   { left: 300px; }
+  2% { left: 300px; }
 
   100% { left: 300px; }
+
 }
 
 .move-2 {
@@ -38,11 +39,12 @@ body {
 
 @keyframes move-2 {
 
-  0%   { left: 0px; }
+  0% { left: 0; }
 
-  2%   { left: 400px; }
+  2% { left: 400px; }
 
   100% { left: 400px; }
+
 }
 
 .move-3 {
@@ -53,20 +55,21 @@ body {
 
 @keyframes move-3 {
 
-  0%   { left: 0px; }
+  0% { left: 0; }
 
-  2%   { left: 500px; }
+  2% { left: 500px; }
 
   100% { left: 500px; }
+
 }
 
 .caps {
-font-family: 'Russo One', sans-serif;
-color: #fff;
+  font-family: "Russo One", sans-serif;
+  color: #fff;
 }
 
 .lower {
-  font-family: 'Montserrat', sans-serif;
+  font-family: Montserrat, sans-serif;
   color: #fff;
 }
 
