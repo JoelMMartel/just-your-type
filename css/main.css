@@ -22,8 +22,11 @@ body {
 }
 
 @keyframes move-1 {
+
   0%   { left: 0px; }
+
   2%   { left: 300px; }
+
   100% { left: 300px; }
 }
 
@@ -34,8 +37,11 @@ body {
 }
 
 @keyframes move-2 {
+
   0%   { left: 0px; }
+
   2%   { left: 400px; }
+
   100% { left: 400px; }
 }
 
@@ -46,8 +52,11 @@ body {
 }
 
 @keyframes move-3 {
+
   0%   { left: 0px; }
+
   2%   { left: 500px; }
+
   100% { left: 500px; }
 }
 
